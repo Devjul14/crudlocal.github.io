@@ -1,0 +1,23 @@
+.user-card {
+    font-family: Arial, Helvetica, sans-serif;
+    background: khaki;
+    width: 500px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 10px;
+    margin-bottom: 15px;
+    border-bottom: darkkhaki 5px solid;
+}
+
+.user-card img {
+    width: 100%;
+}
+
+.user-card button {
+    cursor: pointer;
+    background: darkkhaki;
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+    padding: 5px 10px;
+}

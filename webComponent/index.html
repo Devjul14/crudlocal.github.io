@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Component</title>
+    <style>
+        h3 {
+            color: rgb(248, 224, 7);
+        }
+    </style>
+</head>
+<body>
+    <h3>Our Profile</h3>
+    <user-card name="eka" avatar="https://randomuser.me/api/portraits/men/1.jpg">
+    <div slot="email">eka@gmail.com</div>
+    <div slot="phone">087710325085</div>
+    </user-card>
+    <user-card name="julia" avatar="https://randomuser.me/api/portraits/women/1.jpg">
+        <div slot="email">eka@gmail.com</div>
+        <div slot="phone">087710325085</div>
+    </user-card>
+
+    <script src="./index.js"></script>
+</body>
+</html>
